@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+    <title>Bookzone | Pachetul Game Of Thrones</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="display">
+        <p class="display__text">Oferta expira in:</p>
+        <div class="display__time-left">
+          <span class="display__time-days"></span>
+          <span class="display__time-delimiter">:</span>
+          <span class="display__time-hours"></span>
+          <span class="display__time-delimiter">:</span>
+          <span class="display__time-minutes"></span>
+          <span class="display__time-delimiter">:</span>
+          <span class="display__time-seconds"></span>
+        </div>
+      </div>
+      <div class="navbar">
+        <button
+          aria-expanded="false"
+          aria-controls="menu-content"
+          class="navbar-button"
+        >
+          <span class="open">☰</span>
+          <span class="close">×</span>
+        </button>
+        <a href="#" class="navbar-brand">
+          <img src="img/logo.png" alt="Bookzone, librarie online" />
+        </a>
+        <form action="#" method="GET" class="navbar-search-form" role="search">
+          <label class="sr-text" for="navbar-search-input"
+            >Cauta un produs</label
+          >
+          <input
+            type="search"
+            name="search"
+            class="navbar-search-input"
+            id="navbar-search-input"
+            placeholder="Caută un produs aici..."
+            autocomplete="off"
+            aria-label="Cauta"
+          />
+          <button type="submit" class="navbar-search-button">
+            <span class="sr-text">Cauta</span>
+          </button>
+          <ul class="search-result">
+          </ul>
+        </form>
+        <div class="menu-user-actions">
+          <a href="#">
+            <img src="img/icons/user.png" width="15" alt="Contul meu" />
+            <span class="user-account">Contul meu</span>
+          </a>
+          <a href="#">
+            <img src="img/icons/cart.png" width="20" alt="Cosul meu" />
+            <span class="user-cart">Cosul meu</span>
+          </a>
+        </div>
+      </div>
+      <nav id="navbar-container">
+        <ul class="menu-visible" id="menu-content">
+          <li>
+            <div class="navbar-container-title">Categorii</div>
+          </li>
+          <li><a href="#">Blogul Bookzone</a></li>
+          <li><a href="#">Carti la reducere</a></li>
+          <li><a href="#">Carti</a></li>
+          <li><a href="#">Pachete speciale</a></li>
+          <li><a href="#">Idei de cadouri</a></li>
+          <li><a href="#">Cele mai vandute carti</a></li>
+          <li><a href="#">Cele mai noi carti</a></li>
+          <li><a href="#">Exclusiv pe Bookzone</a></li>
+          <li><a href="#">Transport gratuit</a></li>
+          <li><a href="#">Vreau sa public o carte!</a></li>
+        </ul>
+      </nav>
+      <div class="header-hero">
+        <h1 class="title">Pachetul Game Of Thrones</h1>
+        <span class="title-flipped" aria-hidden="true"
+          >Pachetul Game Of Thrones</span
+        >
+        <div class="header-hero-books">
+          <img src="img/got-cartea-1.png" alt="Urzeala tronurilor" />
+          <img src="img/got-cartea-2.png" alt="Inclestarea regilor" />
+          <img src="img/got-cartea-3.png" alt="Iuresul sabiilor" />
+          <img src="img/got-cartea-4.png" alt="Festinul Ciorilor" />
+          <img src="img/got-cartea-5.png" alt="Dansul dragonilor" />
+          <div class="book-package-price book-package-price-accent">
+            <span class="price price-accent old-price" aria-hidden="true"
+              >355 lei</span
+            >
+            <span class="price price-accent current-price">199 lei</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- SECTION ABOUT -->
+    <section class="about">
+      <h2 class="about-author">
+        George R. R. Martin
+        <span class="about-package">Pachet Game Of Thrones</span>
+      </h2>
+      <img src="img/left-shield.png" alt="" class="decoration-left" />
+      <img src="img/right-shield.png" alt="" class="decoration-right" />
+      <div class="about-container">
+        <ul class="about-checklist">
+          <li>Transport gratuit</li>
+          <li>Stoc limitat</li>
+          <li>Retur gratuit in 30 de zile</li>
+        </ul>
+        <div class="book-package-price buy-box">
+          <span class="price old-price-modified" aria-hidden="true"
+            >355 lei</span
+          >
+          <span class="price current-price current-price-accent">199 lei</span>
+        </div>
+        <button class="add-to-cart-cta">Adauga in cos</button>
+      </div>
+      <div class="contact-info clearfix">
+        <div class="contact-info-phone">
+          <p class="leaf">Comanda prin telefon</p>
+          <a
+            class="contact-phone"
+            href="tel:0314335165"
+            aria-label="0 3 1. 4 3 3.5 1.6 5."
+            >031-433.51.65</a
+          >
+        </div>
+        <div class="contact-info-schedule">
+          <p><span>L-V </span>10:00 - 18:00</p>
+          <p>Livrare internationala</p>
+        </div>
+      </div>
+      <div class="about-additional-details">
+        <h3>Cea mai populara serie fantasy a secolului 21!</h3>
+        <p>
+          Cele 5 romane care au inspirat serialul de succes creat de HBO, acum
+          intr-un pachet la un pret special. Daca esti fan Game of Thrones, nu
+          rata ocazia de a avea in biblioteca colectia completa de carti cu doar
+          199 de lei.
+        </p>
+      </div>
+    </section>
+    <!-- SECTION BOOKS-ADDITIONAL-INFO -->
+    <div class="books-additional-info">
+      <ul class="books-additional-info-container clearfix">
+        <li>
+          <strong>90+</strong>
+          <p>milioane de carti vandute in toata lumea</p>
+        </li>
+        <li>
+          <strong>47</strong>
+          <p>tradusa in 47 de limbi</p>
+        </li>
+        <li>
+          <strong>5032</strong>
+          <p>de pagini in total</p>
+        </li>
+        <li>
+          <strong>40+</strong>
+          <p>milioane audienta media a serialului HBO</p>
+        </li>
+      </ul>
+    </div>
+    <!-- SECTION PACKAGE-DETAILS -->
+    <section class="package-details">
+      <div class="package-details-container">
+        <h3>
+          Pachetul contine, in format paperback, toate cele 5 titluri din saga
+          Cantec de gheata si foc:
+        </h3>
+        <ol class="package-details-list">
+          <li>Urzeala tronurilor</li>
+          <li>Inclestarea regilor</li>
+          <li>Iuresul sabiilor</li>
+          <li>Festinul ciorilor</li>
+          <li>Dansul dragonilor</li>
+        </ol>
+        <div class="package-details-accordion" id="more-info">
+          <p>
+            Prin Seria Cantec de gheata, George R. R. Martin, un maestru an
+            fantasy-ului contemporan, a creat o capodopera a genului. Mister,
+            intriga, comploturi, aventura, povesti de dragoste, tradari si
+            creaturi fantastice te vor tine cu sufletul la gura pagina cu
+            pagina. Atentie: creeaza dependenta!
+          </p>
+          <p>
+            Saga prezinta o lume fantastica cu o distributie uriasa de personaje
+            complexe si fascinante, si cu o istorie care se intinde 12 mii de
+            ani inapoi in timp. Sapte dinastii rivale se lupta pentru a controla
+            Tronul de fier al regatului Westeros, in timp ce in Nordul
+            indepartat un gigantic zid de aparare este amenintat de forte
+            intunecate si stranii, iar peste Marea ingusta are loc ascensiunea
+            lui Daenerys Targaryen si a ultimilor dragoni aflati in viata.
+          </p>
+          <p>Pregateste-te de o calatorie fantastica de neuitat!</p>
+        </div>
+        <button
+          href="#more-info"
+          class="read-more"
+          aria-controls="more-info"
+          >vezi mai mult</button>
+      </div>
+    </section>
+    <!-- SECTION BOOK-REVIEWS -->
+    <section class="book-reviews">
+      <h3>Recenzii</h3>
+      <img
+        src="img/left-wolf.png"
+        alt=""
+        class="book-review-decoration-left"
+      />
+      <img
+        src="img/right-wolf.png"
+        alt=""
+        class="book-review-decoration-right"
+      />
+      <div class="carousel">
+        <div class="carousel-container">
+          <ul class="book-reviews-carousel">
+            <li class="carousel-slide current-slide">
+              <blockquote class="book-review-text">
+                <p>
+                  "Singura serie fantasy pe care o consider la acelasi nivel cu
+                  Stapanul inelelior a lui J.R.R. Tolkien... Este o serie
+                  fantasy pentru persoane sofisticare, inteligente, chiar si
+                  pentru cei care nu citesc fantasy."
+                </p>
+                <footer>— Chicago Tribune</footer>
+              </blockquote>
+            </li>
+            <li class="carousel-slide">
+              <blockquote class="book-review-text">
+                <p>
+                  "Martin atinge un varf absolut din punctul de vedere al
+                  tehnicii narative si al scenelor de actiune. Scriitura,
+                  imaginatia, impactul emotional si extraordinara constructie a
+                  universului sau presupun o noua definire a genului fantasy."
+                </p>
+                <footer>— Booklist</footer>
+              </blockquote>
+            </li>
+            <li class="carousel-slide">
+              <blockquote class="book-review-text">
+                <p>
+                  "Singura serie fantasy pe care o consider la acelasi nivel cu
+                  Stapanul inelelior a lui J.R.R. Tolkien... Este o serie
+                  fantasy pentru persoane sofisticare, inteligente, chiar si
+                  pentru cei care nu citesc fantasy."
+                </p>
+                <footer>— Chicago Tribune</footer>
+              </blockquote>
+            </li>
+            <li class="carousel-slide">
+              <blockquote class="book-review-text">
+                <p>
+                  "Martin atinge un varf absolut din punctul de vedere al
+                  tehnicii narative si al scenelor de actiune. Scriitura,
+                  imaginatia, impactul emotional si extraordinara constructie a
+                  universului sau presupun o noua definire a genului fantasy."
+                </p>
+                <footer>— Booklist</footer>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-nav">
+          <button class="carousel-indicator current-slide"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION ALL-BOOKS-PACKAGE -->
+    <section class="all-books-package">
+      <h3>Pachetul Game Of Thrones</h3>
+      <div class="carousel-books">
+        <button class="carousel-books-button carousel-button-left is-hidden">
+          <svg width="12" height="20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M.88 10.399l9.435 9.434a.564.564 0 00.8 0 .564.564 0 000-.8L2.084 10 11.116.969A.57.57 0 0010.718 0a.552.552 0 00-.399.168L.885 9.602a.563.563 0 00-.004.797z" fill="#000"/></svg>
+          </svg>
+        </button>
+        <div class="carousel-books-container">
+          <ul class="carousel-books-track">
+            <li class="carousel-books-slide carousel-books-current-slide clearfix">
+              <figure>
+                <img src="img/got-cartea-1.png" alt="Cartea 1 Urleaza Tronurilor" />
+                <figcaption>Cartea 1 <br />
+                  Urzeala Tronurilor</figcaption>
+              </figure>
+              <figure>
+                <img src="img/got-cartea-2.png" alt="Cartea 1 Volumul 2 Inclestarea Regilor" />
+                <figcaption>Cartea 1 Volumul 2<br />Inclestarea Regilor</figcaption>
+              </figure>
+            </li>
+            <li class="carousel-books-slide clearfix">
+              <figure>
+                <img src="img/got-cartea-3.png" alt="Cartea 3 Iuresul Sabiilor" />
+              <figcaption>Cartea 3 <br> Iuresul Sabiilor</figcaption>
+            </figure>
+            <figure>
+              <img src="img/got-cartea-4.png" alt="Cartea 4 Festinul Ciorilor" />
+              <figcaption>Cartea 4 <br> Festinul Ciorilor</figcaption>
+            </figure>
+            </li>
+            <li class="carousel-books-slide clearfix">
+              <figure>
+                <img src="img/got-cartea-5.png" alt="Cartea 5 Dansul Dragonilor" />
+              <figcaption>Cartea 5 <br /> Dansul Dragonilor</figcaption>
+            </figure>
+            </li>
+          </ul>
+        </div>
+        <button class="carousel-books-button carousel-button-right">
+          <svg
+            width="12"
+            height="20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M11.12 9.601L1.684.167a.564.564 0 00-.8 0 .564.564 0 000 .8L9.916 10 .884 19.032a.57.57 0 00.398.968c.143 0 .29-.055.399-.168l9.434-9.434a.563.563 0 00.004-.797z"
+              fill="#000"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

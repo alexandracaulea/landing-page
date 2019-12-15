@@ -1,0 +1,17 @@
+{
+  "name": "landing-page-code-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page code challenge for a job interview",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Alexandra Caulea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandracaulea/landing-page-code-challenge/issues"
+  },
+  "homepage": "https://github.com/alexandracaulea/landing-page-code-challenge#readme",
+  "devDependencies": {}
+}
