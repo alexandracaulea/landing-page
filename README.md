@@ -1,18 +1,15 @@
-# Landing page code challenge for a job interview
+### Landing Page Code Challenge
 
-## Requirements
+Using the files provided by the company, I had to create a landing page.
 
-- Create a landing page in HTML, CSS, JavaScript using the two images provided (mobile version and desktop version).
-- A mobile first approach, the desktop version is not important
-- Browser support should be Google Chrome and Firefox
-- Use older CSS technologies like: floats and position (do not use Flexbox, Grid, CSS Frameworks, or SASS)
-- Regarding JavaScript I had to create five callback functions, one should make a request to an API.
+#### Requirements
 
-### Code
+- I needed to create a landing page in HTML, CSS, JavaScript based on the two images provided - a mobile version and a desktop version.
+- The requirement was to focus on the mobile, desktop version was not important.
+- As the browsers I had to focus on Chrome and Firefox.
+- I needed to use older CSS technologies like: floats and position, and not to use Flexbox, Grid, CSS Frameworks, or SASS.
+- I had to create five callback functions, one should make a request and display some data.
 
-- The code was written by me
+#### To view the online version
 
-### Images
-
-- I don't own the rights for them.
-- This was a code challenge during the job interview process for the company that I've applied.
+https://alexandracaulea.github.io/landing-page/
